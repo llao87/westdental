@@ -1,0 +1,41 @@
+section.contacts-section
+    .container 
+        .contacts-info
+            .column
+                .row
+                    .worktime 
+                        span Стоматология работает ежедневно
+                        span 9:00 - 21:00
+                    .address 
+                        .address__row
+                            .header Янино-1, ул. Голландская, 5
+                            a.phone(href="tel:+79817534426") +7 (981) 753 44 26
+                        .address__row
+                            .header Всеволожск, ТСН "Южная долина", ул. Доктора Сотникова, 5
+                            a.phone(href="tel:+79119231453") +7 (911) 923 14 53
+                .row 
+                    .socials 
+                        a.social__link(href="#")
+                            img.social__icon(src="#")
+                        a.social__link(href="#")
+                            img.social__icon(src="#")
+
+                    .contacts 
+                        .contact__phone
+                            .contact__header Записаться по телефону
+                            a.phone(href="tel:+78124505507") +7 (812) 450 00 07
+                        .contact__email
+                            a.email-link(href="mailto:westdentals@yandex.ru") westdentals@yandex.ru
+            .column
+                form.feedback
+                    .feedback__fields
+                        .feedback__header Оставьте нам сообщение
+                        .feedback__description Если у вас есть вопросы, пожелания или вы хотите записаться на прием, то, пожалуйста, оставьте нам сообщение
+                        .feedback__field 
+                            input(type="text" name="name" placeholder="Ваше имя")
+                        .feedback__field 
+                            input(type="text" name="phone" placeholder="+7 (___) ___ __ __")
+                        .feedback__field 
+                            textarea(name="message" placeholder="Ваше сообщение")
+                    .feedback__controls 
+                        input.btn.btn--dark-blue.btb--text-white(type="submit" value="Оставить сообщение")
